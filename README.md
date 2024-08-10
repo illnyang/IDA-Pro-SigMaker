@@ -1,13 +1,15 @@
 # IDA Pro SigMaker
-Signature Maker Plugin for IDA Pro 8.3
+[Signature Maker Plugin by A200K](https://github.com/A200K/IDA-Pro-SigMaker) adapted for IDA Pro 9.0 beta + Linux
 
 ## Requirements
-- IDA Pro Plugin SDK 8.3. Previous versions >= 8.0 might work as well though.
+- IDA Pro Plugin SDK 9.0.
+- [allthingsida/ida-cmake](https://github.com/allthingsida/ida-cmake) in SDK root dir
 
 ## Installation
 Drop into plugins folder of your IDA installation.
 
-`%AppData%\Hex-Rays\IDA Pro\plugins`
+`%AppData%\Hex-Rays\IDA Pro\plugins` on Windows  
+`$HOME/.idapro/plugins`  on Linux/Mac
 
 ## Usage
 In disassembly view, select a line you want to generate a signature for, and press 
